@@ -1,10 +1,20 @@
-11:03:52 **** Incremental Build of configuration Debug for project application ****
+11:38:31 **** Incremental Build of configuration Debug for project application ****
 make -j16 all 
+arm-none-eabi-gcc "../Source/application.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303x8 -DIMAGE_ID=1 '-DVERSION_BUGFIX=' '-DVERSION_MAJOR=' '-DVERSION_MINOR=' '-DSHORT_GIT_HASH=""' -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Source -O0 -ffunction-sections -fdata-sections -Wall -Wextra -pedantic -Wmissing-include-dirs -Wswitch-default -Wswitch-enum -Wconversion -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Source/application.d" -MT"Source/application.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Source/application.o"
+arm-none-eabi-gcc -o "application.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Data\firmware_workshop\rpi-embedded-target-action-runner\application\STM32F303K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="application.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: application.elf
+ 
 arm-none-eabi-size  application.elf 
+arm-none-eabi-objdump -h -S application.elf  > "application.list"
    text	   data	    bss	    dec	    hex	filename
-  28276	    108	  10108	  38492	   965c	application.elf
+  28268	    108	  10108	  38484	   9654	application.elf
+arm-none-eabi-objcopy  -O binary application.elf  "application.bin"
 Finished building: default.size.stdout
  
+Finished building: application.list
+Finished building: application.bin
+ 
+ 
 
-11:03:53 Build Finished. 0 errors, 0 warnings. (took 1s.55ms)
+11:38:34 Build Finished. 0 errors, 0 warnings. (took 3s.62ms)
 

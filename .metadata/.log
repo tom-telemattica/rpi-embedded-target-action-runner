@@ -199,3 +199,63 @@ Please upgrade the ST-LINK firmware using the upgrade tool. Reconnect ST-LINK an
 
 !ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-10 11:03:52.494
 !MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-10 11:35:22.435
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-10 11:35:22.435
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-10 11:35:22.435
+!MESSAGE C:\Data\firmware_workshop\rpi-embedded-target-action-runner\application overlaps the location of another project: 'application'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-10 11:35:22.439
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-10 11:35:31.621
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-10 11:35:31.621
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-10 11:35:31.621
+!MESSAGE C:\Data\firmware_workshop\rpi-embedded-target-action-runner\application overlaps the location of another project: 'application'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-10 11:35:31.625
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-10 11:36:46.088
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-10 11:36:46.088
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-10 11:36:46.088
+!MESSAGE C:\Data\firmware_workshop\rpi-embedded-target-action-runner\application overlaps the location of another project: 'application'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-10 11:36:46.096
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-10 11:37:17.159
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-10 11:37:17.159
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-10 11:37:17.159
+!MESSAGE C:\Data\firmware_workshop\rpi-embedded-target-action-runner\application overlaps the location of another project: 'application'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-10 11:37:17.163
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-10 11:38:13.424
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-10 11:38:13.424
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-10 11:38:13.424
+!MESSAGE C:\Data\firmware_workshop\rpi-embedded-target-action-runner\application overlaps the location of another project: 'application'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-10 11:38:13.429
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-07-10 11:38:31.164
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-07-10 11:38:31.164
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-07-10 11:38:31.164
+!MESSAGE C:\Data\firmware_workshop\rpi-embedded-target-action-runner\application overlaps the location of another project: 'application'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-07-10 11:38:31.168
+!MESSAGE Project is null
