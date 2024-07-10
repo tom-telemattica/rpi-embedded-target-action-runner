@@ -67,6 +67,17 @@ jobs:
             name: stm32-firmware-sample_application-${{ steps.version_handling.outputs.file_postfix }}
             path: stm32-firmware
 
+  analyse-code:
+    name: Analyse
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4.1.7
+      - name: cppcheck
+        run: |
+            sudo apt-get install -y cppcheck
+            cppcheck --enable=all --inline-suppr --project=application.cppcheck --error-exitcode=-1
+
   release:
     needs: [build-sample-application]
     if: github.ref == 'refs/heads/master'
@@ -101,4 +112,5 @@ jobs:
             draft: false
             prerelease: false
             artifacts: "stm32-firmware/stm32-firmware-*/*"
-            
+
+  
